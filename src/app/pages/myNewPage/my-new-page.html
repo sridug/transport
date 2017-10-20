@@ -1,0 +1,30 @@
+<div
+          ba-panel
+          ba-panel-title="Block Form"
+          ba-panel-class="with-scroll">
+        <div ng-include="'app/pages/form/layouts/widgets/blockForm.html'"></div>
+      </div>
+
+ <!--<div class="row">
+    <div class="col-md-12">
+      <div ba-panel ba-panel-title="Smart Table With Filtering, Sorting And Pagination" ba-panel-class="with-scroll">
+        <div include-with-scope="app/pages/tables/widgets/smartTable.html"></div>
+      </div>
+    </div>
+  </div>
+
+ <div >-->
+
+
+ <div ng-app="BlurAdmin.pages.myNewPage" ng-controller="myCtrl">
+
+
+<table>
+  <tr ng-repeat="x in names">
+    <td>LorryName : {{ x.lorryName }}</td>
+    <td>LorryOwner : {{ x.lorryOwner }}</td>
+  </tr>
+</table>
+ 
+<!-- Full Name: {{firstName + " " + lastName}} -->
+</div>
